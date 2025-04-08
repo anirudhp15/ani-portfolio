@@ -1,28 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { projects } from "@/components/home/projects/projects";
 import ProjectCard from "@/components/home/projects/ProjectCard";
-
-// Parent container variants
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: {
-      delayChildren: 0.5, // Delay children by 0.5 seconds
-      staggerChildren: 0.5, // Stagger each child by 0.5 seconds
-    },
-  },
-};
-
-// Child item variants
-const itemVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5 },
-  },
-};
 
 export default function ProjectsPage() {
   return (

@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
           className="m-0 mb-2 text-3xl text-right md:text-4xl md:text-center"
           variants={fadeInOne}
         >
-          <p className="py-1 thin">hi, i'm </p>
+          <p className="py-1 thin">hi, i&apos;m </p>
           <ReactTyped
             className="font-bold text-indigo-400 whitespace-nowrap"
             typeSpeed={50}

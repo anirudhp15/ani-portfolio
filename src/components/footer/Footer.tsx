@@ -8,9 +8,7 @@ import {
   AiFillYoutube,
   AiOutlineMail,
   AiFillMail,
-  AiOutlineInfoCircle,
   AiOutlinePhone,
-  AiOutlineMessage,
 } from "react-icons/ai";
 import { ReactTyped } from "react-typed";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
@@ -20,8 +18,6 @@ const Footer: React.FC = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  // State for toggling tutoring details dropdown
-  const [isTutoringOpen, setIsTutoringOpen] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

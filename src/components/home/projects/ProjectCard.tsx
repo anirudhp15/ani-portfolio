@@ -14,12 +14,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     "tools"
   );
 
-  // Determine if URL is an image or video (for future use)
-  const isImageUrl =
-    project.imageUrl.endsWith(".jpg") ||
-    project.imageUrl.endsWith(".jpeg") ||
-    project.imageUrl.endsWith(".png");
-
   return (
     <div className="p-8 m-4 overflow-hidden transition-transform duration-300 ease-in-out transform bg-white rounded-lg shadow-lg lg:m-0 hover:shadow-2xl lg:hover:-translate-y-2 lg:hover:translate-x-2">
       {/* Image */}

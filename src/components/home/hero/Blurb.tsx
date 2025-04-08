@@ -14,7 +14,7 @@ const Blurb: React.FC = () => {
         viewport={{ once: true }}
         className="mx-auto max-w-4xl text-2xl font-light leading-relaxed text-left text-gray-100 sm:text-3xl lg:text-4xl"
       >
-        i'm a{" "}
+        i&apos;m a{" "}
         <span className="font-bold text-indigo-400 drop-shadow-md">
           math/cs student
         </span>
@@ -42,7 +42,7 @@ const Blurb: React.FC = () => {
         viewport={{ once: true }}
         className="mx-auto mt-8 max-w-4xl text-2xl font-light leading-relaxed text-right text-gray-100 sm:text-3xl lg:text-4xl"
       >
-        i'm currently researching{" "}
+        i&apos;m currently researching{" "}
         <span className="font-bold text-indigo-400 drop-shadow-md">
           probabilistic systems
         </span>{" "}
