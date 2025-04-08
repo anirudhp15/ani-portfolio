@@ -10,9 +10,9 @@ export default function IntroductionPage() {
 
         <div className="bg-white/10 backdrop-blur-md p-8 rounded-lg shadow-xl">
           <p className="text-xl text-white mb-6 leading-relaxed">
-            I'm Anirudh Pottammal, a math and computer science student based in
-            NYC. I'm passionate about the intersection of mathematics,
-            programming, and finance.
+            I&apos;m Anirudh Pottammal, a math and computer science student
+            based in NYC. I&apos;m passionate about the intersection of
+            mathematics, programming, and finance.
           </p>
 
           <p className="text-xl text-white mb-6 leading-relaxed">
@@ -23,13 +23,13 @@ export default function IntroductionPage() {
           </p>
 
           <p className="text-xl text-white mb-6 leading-relaxed">
-            When I'm not coding or solving math problems, I practice magic
+            When I&apos;m not coding or solving math problems, I practice magic
             tricks and explore the city. I believe in continuous learning and
             applying theoretical knowledge to practical challenges.
           </p>
 
           <p className="text-xl text-white leading-relaxed">
-            Feel free to explore my projects or reach out if you'd like to
+            Feel free to explore my projects or reach out if you&apos;d like to
             collaborate on interesting problems!
           </p>
         </div>

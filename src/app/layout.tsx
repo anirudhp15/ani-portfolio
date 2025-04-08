@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { motion } from "framer-motion";
 import GradientBackground from "@/components/designs/gradients/gradientBackground/GradientBackground";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
@@ -13,9 +12,6 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio website showcasing Ani Potts' work and experience",
 };
-
-// Add framer-motion client component wrapper since layout is a server component
-const MotionDiv = motion.div;
 
 export default function RootLayout({
   children,
