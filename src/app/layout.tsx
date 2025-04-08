@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./tailwind-vars.css";
 import "./tailwind-utilities.css";
+import "./component-styles.css";
 import "./globals.css";
 import GradientBackground from "@/components/designs/gradients/gradientBackground/GradientBackground";
 import Navbar from "@/components/navbar/Navbar";
